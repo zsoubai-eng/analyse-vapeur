@@ -1,0 +1,17 @@
+# Core
+pandas
+numpy
+matplotlib
+seaborn
+openpyxl
+
+# Web App
+streamlit
+
+# Machine Learning
+scikit-learn
+
+# Intelligence & Text
+fuzzywuzzy
+python-Levenshtein
+langdetect
