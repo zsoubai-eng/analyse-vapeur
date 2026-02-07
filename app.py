@@ -27,7 +27,11 @@ def login():
             user = st.text_input("Username")
             pw = st.text_input("Password", type="password")
             if st.form_submit_button("Login"):
-                if user == "admin" and pw == "ocp2025":
+                # Read credentials from environment variables (set in Render dashboard)
+                ADMIN_USER = os.getenv("ADMIN_USERNAME", "admin")
+                ADMIN_PASS = os.getenv("ADMIN_PASSWORD", "changeme")
+                
+                if user == ADMIN_USER and pw == ADMIN_PASS:
                     st.session_state.logged_in = True
                     st.rerun()
                 else:
