@@ -29,7 +29,7 @@ def login():
             if st.form_submit_button("Login"):
                 # Read credentials from environment variables (set in Render dashboard)
                 ADMIN_USER = os.getenv("ADMIN_USERNAME", "admin")
-                ADMIN_PASS = os.getenv("ADMIN_PASSWORD", "changeme")
+                ADMIN_PASS = os.getenv("ADMIN_PASSWORD", "7f3a9b2c-4e8d-11ec-9f7a-0242ac120002")
                 
                 if user == ADMIN_USER and pw == ADMIN_PASS:
                     st.session_state.logged_in = True
