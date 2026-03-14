@@ -126,4 +126,4 @@ Industrial Engineer | AI Builder
 
 - **Partner:** OCP Group (Kofert)
 - **Academic Supervisor:** Prof. Issam AMELLAL
-- **Industrial Supervisor:** M. [Adding Name...]
+- **Industrial Supervisor:** M. Moussaoui Hanafi
